@@ -38,28 +38,34 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "E-Commerce Website",
+    title: "QuickBlog",
     image: project1,
     description:
-      "A fully functional e-commerce website with features like product listing, shopping cart, and user authentication.",
-    technologies: ["HTML", "CSS", "React", "Node.js", "MongoDB"],
+      "An AI-powered blogging platform that generates blog content from a given title and description. Includes social media sharing integration for instant publishing.",
+    technologies: ["React", "Node.js", "MongoDB", "TailwindCSS", "OpenAI API"],
+    github: "https://github.com/yourusername/quickblog",
+    live: "https://quickblog-demo.vercel.app",
   },
   {
-    title: "Sports Safari",
+    title: "Learning Management System (LMS)",
     image: project2,
     description:
-      "Developed a user-friendly platform for booking sports ground, incoparating features like booking management, calendar views, payment integration. utilized web development technologies and databases to create a seamless booking experience.",
-    technologies: ["HTML", "CSS", "Node.Js", "JavaScript", "MongoDB", "APIs",],
+      "A complete LMS platform with user roles (Admin, Instructor, Student), course management, quizzes, and progress tracking. Built for seamless online education.",
+    technologies: ["React", "Node.js", "Express", "MongoDB", "JWT", "TailwindCSS"],
+    github: "https://github.com/yourusername/lms-project",
+    live: "#",
   },
   {
-    title: "Portfolio Website",
+    title: "School Directory",
     image: project3,
     description:
-      "A personal portfolio website showcasing projects, skills, and contact information.",
-    technologies: ["Tailwindcss",  "React", "JavaScript"],
+      "A centralized school directory system for managing school profiles, contact info, and educator details. Includes search and filter functionality.",
+    technologies: ["React", "Express", "MySQL", "Node.js", "Bootstrap"],
+    github: "https://github.com/yourusername/school-directory",
+    live: "https://school-directory-demo.vercel.app",
   },
-
 ];
+
 
 export const CONTACT = {
   address: "Sitapura Ricco Industrial Area, Jaipur, (Rajasthan) 302022",
