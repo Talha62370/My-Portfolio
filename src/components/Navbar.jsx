@@ -2,16 +2,16 @@ import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 const Navbar = () => {
   return (
-    <nav className="mb-20 flex items-center justify-between py-6 px-12 bg-neutral-950 border-b border-neutral-800">
+    <nav className="mb-20 flex flex-col md:flex-row items-center justify-between py-6 px-6 bg-neutral-950 border-b border-neutral-800 gap-4">
       {/* Resume Button */}
       <a href="/resume.pdf" download>
-        <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition shadow-md ml-4">
+        <button className="bg-blue-600 text-white px-6 py-3 rounded-lg font-semibold text-lg hover:bg-blue-700 transition shadow-md">
           Download Resume
         </button>
       </a>
 
       {/* Social Icons */}
-      <div className="flex items-center space-x-6 text-white text-3xl mr-4">
+      <div className="flex items-center space-x-6 text-white text-3xl">
         <a
           href="https://www.linkedin.com/in/malickabutalaha/"
           target="_blank"
